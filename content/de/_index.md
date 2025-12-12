@@ -7,4 +7,4 @@ layout: 'landing'
 
 Von der Planlosigkeit zur strukturierten Leistung: Individuelles Coaching für ambitionierte Rennrad- und Mountainbike-AmateurSportler, die ihre Grenzen verschieben wollen.
 
-{{<button href="/docs/training">}}Explore{{</button>}}
+{{<button href="/de/docs/training">}}Explore{{</button>}}

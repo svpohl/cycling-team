@@ -7,4 +7,4 @@ layout: 'landing'
 
 From chaos to structured performance: Personalized coaching for ambitious road cycling and mountain biking enthusiasts who want to push their boundaries.
 
-{{<button href="/docs/training">}}Explore{{</button>}}
+{{<button href="/en/docs/training">}}Explore{{</button>}}
