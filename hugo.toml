@@ -1,4 +1,8 @@
 baseURL = 'https://cycling-team.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Cycling Team blog'
 theme = 'hugo-book'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
