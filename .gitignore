@@ -1,0 +1,27 @@
+# Hugo
+/public/
+/resources/_gen/
+resources/_gen/
+
+# Hugo environment
+.hugo_build.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
