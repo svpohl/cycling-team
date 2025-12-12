@@ -47,4 +47,3 @@ disableDefaultLanguageRedirect = false
 
 [params]
   BookTheme = 'auto'
-  BookDateFormat = '27. Januar 2023'
