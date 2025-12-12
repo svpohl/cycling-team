@@ -1,7 +1,11 @@
 baseURL = 'https://training.cycling-team.com/'
 languageCode = 'en-us'
 title = 'Cycling Team blog'
+theme = 'hugo-book'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  BookTheme = 'auto'
