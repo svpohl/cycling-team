@@ -7,5 +7,44 @@ theme = 'hugo-book'
   [caches.images]
     dir = ':cacheDir/images'
 
+# menu settings
+
+[[menu.after]]
+  name = 'Github'
+  url = 'https://github.com/alex-shpak/hugo-book/'
+  weight = 10
+
+[[menu.after]]
+  name = 'Hugo Themes'
+  url = 'https://themes.gohugo.io/themes/hugo-book/'
+  weight = 20
+
+# language
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    disabled = false
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'Projekt Dokumentation'
+    weight = 1
+    [languages.de.params]
+      subtitle = 'Referenz, Tutorials und Erklärungen'
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Project Documentation'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
+
 [params]
   BookTheme = 'auto'
+  BookDateFormat = '27. Januar 2023'
