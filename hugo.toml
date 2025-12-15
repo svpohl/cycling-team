@@ -2,12 +2,16 @@ baseURL = 'https://training.cycling-team.com/'
 
 title = 'Cycling Team blog'
 theme = 'hugo-book'
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = false
+disableDefaultLanguageRedirect = false
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
-# menu settings
+[params]
+  BookTheme = 'auto'
 
 [[menu.after]]
   name = 'Github'
@@ -19,10 +23,7 @@ theme = 'hugo-book'
   url = 'https://themes.gohugo.io/themes/hugo-book/'
   weight = 20
 
-# language
-defaultContentLanguage = 'de'
-defaultContentLanguageInSubdir = false
-disableDefaultLanguageRedirect = false
+
 [languages]
   [languages.de]
     disabled = false
@@ -42,6 +43,3 @@ disableDefaultLanguageRedirect = false
     weight = 2
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
-
-[params]
-  BookTheme = 'auto'
