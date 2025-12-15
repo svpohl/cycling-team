@@ -1,10 +1,11 @@
 ---
-title: ''
+title: 'Startseite'
 layout: 'landing'
+translationKey: 'homepage'
 ---
 
-# this is the hompage
+# Startseite
 
 Von der Planlosigkeit zur strukturierten Leistung: Individuelles Coaching für ambitionierte Rennrad- und Mountainbike-AmateurSportler, die ihre Grenzen verschieben wollen.
 
-{{<button href="/de/docs/training">}}Explore{{</button>}}
+{{<button href="/docs/training">}}Explore{{</button>}}

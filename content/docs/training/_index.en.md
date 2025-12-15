@@ -1,7 +1,8 @@
 ---
-title: "About"
-weight: 99
+title: 'Training'
+weight: 1
 bookFlatSection: true
+url: 'training'
 # bookToc: true
 # bookHidden: false
 # bookCollapseSection: false
