@@ -1,7 +1,12 @@
 baseURL = 'https://training.cycling-team.com/'
 
 title = 'Cycling Team blog'
+
+# Theme config
 theme = 'hugo-book'
+enableGitInfo = true
+
+# Language config
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
