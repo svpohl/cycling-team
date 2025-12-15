@@ -21,26 +21,24 @@ theme = 'hugo-book'
 
 # language
 defaultContentLanguage = 'de'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
 [languages]
   [languages.de]
-    contentDir = 'content/de'
     disabled = false
     languageCode = 'de-DE'
     languageDirection = 'ltr'
     languageName = 'Deutsch'
-    title = 'Projekt Dokumentation'
+    title = 'Cycling Team Training'
     weight = 1
     [languages.de.params]
       subtitle = 'Referenz, Tutorials und Erklärungen'
   [languages.en]
-    contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'Project Documentation'
+    title = 'Cycling Team Training'
     weight = 2
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
