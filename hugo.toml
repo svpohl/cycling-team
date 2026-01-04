@@ -12,39 +12,43 @@ defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
 
 [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+dir = ':cacheDir/images'
 
 [params]
-  BookTheme = 'auto'
-
-[[menu.after]]
-  name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
-  weight = 10
-
-[[menu.after]]
-  name = 'Hugo Themes'
-  url = 'https://themes.gohugo.io/themes/hugo-book/'
-  weight = 20
+BookTheme = 'auto'
 
 
 [languages]
-  [languages.de]
-    disabled = false
-    languageCode = 'de-DE'
-    languageDirection = 'ltr'
-    languageName = 'Deutsch'
-    title = 'Cycling Team Training'
-    weight = 1
-    [languages.de.params]
-      subtitle = 'Referenz, Tutorials und Erklärungen'
-  [languages.en]
-    disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    title = 'Cycling Team Training'
-    weight = 2
-    [languages.en.params]
-      subtitle = 'Reference, Tutorials, and Explanations'
+[languages.de]
+disabled = false
+languageCode = 'de-DE'
+languageDirection = 'ltr'
+languageName = 'Deutsch'
+title = 'Cycling Team Training'
+weight = 1
+[languages.de.params]
+subtitle = 'Referenz, Tutorials und Erklärungen'
+[languages.en]
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'Cycling Team Training'
+weight = 2
+
+[menu]
+[[menu.home]]
+name = 'Home'
+pageRef = '/'
+weight = 1
+
+[[menu.after]]
+name = 'Github'
+url = 'https://github.com/alex-shpak/hugo-book/'
+weight = 10
+
+[[menu.after]]
+name = 'Hugo Themes'
+url = 'https://themes.gohugo.io/themes/hugo-book/'
+weight = 20
